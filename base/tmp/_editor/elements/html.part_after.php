@@ -1,0 +1,1 @@
+<?php do_action( 'empty-part_' . strtolower( $args[1] ) . '_after' ); ?></div>

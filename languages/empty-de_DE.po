@@ -1,0 +1,506 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: empty framework pro\n"
+"POT-Creation-Date: 2017-03-21 12:55+0100\n"
+"PO-Revision-Date: 2017-03-21 12:57+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: _empty.php\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: base/php/_editor/class.empty_editor.php:186
+msgid "Update"
+msgstr "Aktualisieren"
+
+#: base/php/_editor/class.empty_editor.php:190
+msgid "Publish"
+msgstr "Veröffentlichen"
+
+#: base/php/_editor/class.empty_parser.php:66
+#: languages/translation.javascript.php:17
+msgid "Row"
+msgstr "Reihe"
+
+#: base/php/_editor/class.empty_parser.php:71
+msgid "Text"
+msgstr "Text"
+
+#: base/php/_editor/class.empty_parser.php:82
+msgid "Media"
+msgstr "Medien"
+
+#: base/php/class.empty_admin.php:111
+msgid "Post Types"
+msgstr "Post Types"
+
+#: base/php/class.empty_admin.php:118 base/php/class.empty_settings.php:947
+msgid "Editor"
+msgstr "Editor"
+
+#: base/php/class.empty_admin.php:121
+msgid "Colors"
+msgstr "Farben"
+
+#: base/php/class.empty_admin.php:165
+msgid "Line-height"
+msgstr "Zeilenhöhe"
+
+#: base/php/class.empty_admin.php:170
+msgid "Page Paddings"
+msgstr "Seitenränder"
+
+#: base/php/class.empty_admin.php:175
+msgid "Content Width"
+msgstr "Inhaltsbreite"
+
+#: base/php/class.empty_admin.php:180
+msgid "Row Spacing"
+msgstr "Reihenabstand"
+
+#: base/php/class.empty_admin.php:185
+msgid "Element Spacing"
+msgstr "Elementabstand"
+
+#: base/php/class.empty_admin.php:235
+#: base/tmp/messages/html.description_empty_options.php:3
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: base/php/class.empty_admin.php:237 pro/_empty_pro.php:243
+msgid "Breakpoints"
+msgstr "Breakpoints"
+
+#: base/php/class.empty_admin.php:238 base/php/class.empty_settings.php:776
+#: pro/_empty_pro.php:244
+msgid "Grid"
+msgstr "Raster"
+
+#: base/php/class.empty_admin.php:239 pro/_empty_pro.php:245
+msgid "Typography"
+msgstr "Typografie"
+
+#: base/php/class.empty_admin.php:407
+#, php-format
+msgid "%s file %s has been created successfully."
+msgid_plural "%s files %s have been created successfully."
+msgstr[0] "%s Datei %s wurde erfolgreich erstellt."
+msgstr[1] "%s Dateien %s wurden erfolgreich erstellt."
+
+#: base/php/class.empty_file.php:47 base/php/class.empty_file.php:65
+msgid "Empty does not have write access to create required CSS files."
+msgstr ""
+"Empty hat nicht die erforderlichen Rechte um die benötigten CSS Dateien zu "
+"erstellen."
+
+#: base/php/class.empty_file.php:76
+msgid "Error while writing file:"
+msgstr "Fehler beim Schreiben der Datei: "
+
+#: base/php/class.empty_settings.php:250
+msgid "Which post types do you want to use the drag&drop editor for?"
+msgstr "Für welche Post Types soll der Drag&Drop Editor verwendet werden?"
+
+#: base/php/class.empty_settings.php:266
+msgid "Page Margin Color"
+msgstr "Seitenrand Farbe"
+
+#: base/php/class.empty_settings.php:285
+msgid "Row Spacing Color"
+msgstr "Reihenabstand Farbe"
+
+#: base/php/class.empty_settings.php:303
+msgid "Row Select Color"
+msgstr "Auswahlfarbe (Reihe)"
+
+#: base/php/class.empty_settings.php:322
+msgid "Element Spacing Color"
+msgstr "Elementabstand Farbe"
+
+#: base/php/class.empty_settings.php:340
+msgid "Element Select Color"
+msgstr "Auswahlfarbe (Element)"
+
+#: base/php/class.empty_settings.php:356
+msgid "Define custom colors to be used in the visual editor."
+msgstr "Bestimmen Sie benutzerdefinierte Farben für den visuellen Editor."
+
+#: base/php/class.empty_settings.php:376
+#: pro/base/php/class.empty_pro_settings.php:228
+msgid "Slug"
+msgstr "Slug"
+
+#: base/php/class.empty_settings.php:386
+msgid "Title"
+msgstr "Titel"
+
+#: base/php/class.empty_settings.php:396
+msgid "min-width"
+msgstr "min-width"
+
+#: base/php/class.empty_settings.php:457
+msgid "top"
+msgstr "top"
+
+#: base/php/class.empty_settings.php:464
+#: pro/base/php/class.empty_pro_settings.php:281
+#: pro/base/php/class.empty_pro_settings.php:297
+#: pro/base/php/class.empty_pro_settings.php:450
+msgid "bottom"
+msgstr "bottom"
+
+#: base/php/class.empty_settings.php:465 base/php/class.empty_settings.php:561
+#: base/php/class.empty_settings.php:611 base/php/class.empty_settings.php:689
+#: base/php/class.empty_settings.php:690
+#: pro/base/php/class.empty_pro_settings.php:282
+#: pro/base/php/class.empty_pro_settings.php:298
+#: pro/base/php/class.empty_pro_settings.php:412
+#: pro/base/php/class.empty_pro_settings.php:413
+#: pro/base/php/class.empty_pro_settings.php:451
+msgid "line-height"
+msgstr "line-height"
+
+#: base/php/class.empty_settings.php:475
+msgid "left"
+msgstr "left"
+
+#: base/php/class.empty_settings.php:486
+msgid "right"
+msgstr "right"
+
+#: base/php/class.empty_settings.php:560 base/php/class.empty_settings.php:610
+msgid "Vertical Spacing"
+msgstr "Vertikaler Abstand"
+
+#: base/php/class.empty_settings.php:596
+msgid "Horizontal Spacing"
+msgstr "Horizontaler Abstand"
+
+#: base/php/class.empty_settings.php:648
+msgid "Viewport"
+msgstr "Viewport"
+
+#: base/php/class.empty_settings.php:680
+#: pro/base/php/class.empty_pro_settings.php:403
+msgid "font-family"
+msgstr "font-family"
+
+#: base/php/class.empty_settings.php:700
+#: pro/base/php/class.empty_pro_settings.php:422
+msgid "font-size"
+msgstr "font-size"
+
+#: base/php/class.empty_settings.php:714
+#: pro/base/php/class.empty_pro_settings.php:435
+msgid "font-weight"
+msgstr "font-weight"
+
+#: base/php/class.empty_settings.php:744
+msgid "Add"
+msgstr "Hinzufügen"
+
+#: base/php/class.empty_settings.php:804 base/php/class.empty_settings.php:889
+msgid "Reset All Elements"
+msgstr "Alle Elemente zurücksetzen"
+
+#: base/php/class.empty_settings.php:876
+msgid "Copy values from &hellip;"
+msgstr "Werte kopieren von &hellip;"
+
+#: base/php/class.empty_settings.php:947
+msgid "Path:"
+msgstr "Pfad:"
+
+#: base/tmp/_editor/html.bar_above.php:5
+msgid "Edit Breakpoints"
+msgstr "Breakpoints bearbeiten"
+
+#: base/tmp/_editor/html.bar_above.php:14
+msgid "Edit Grid"
+msgstr "Raster bearbeiten"
+
+#: base/tmp/html.bar_top.php:4
+msgid "Save Changes"
+msgstr "Änderungen speichern"
+
+#: base/tmp/messages/html.description_empty_options.php:2
+#, php-format
+msgid ""
+"To get started with the configuration of empty, read this document: <a href="
+"\"%s\" target=\"_blank\">Installation</a>,<br/>have a look at the <i>readme."
+"txt</i> or start by watching one of the following tutorials:"
+msgstr ""
+"Um mit der Konfiguration von empty zu beginnen, lesen Sie bitte dieses "
+"Dokument <a href=\"%s\" target=\"_blank\">Installation</a>,<br />werfen "
+"einen Blick in die <i>readme.txt</i> oder schauen eins der folgenden "
+"Tutorials:"
+
+#: base/tmp/messages/html.description_empty_options.php:4
+msgid "Breakpoints / Viewports"
+msgstr "Breakpoints / Viewports"
+
+#: base/tmp/messages/html.description_empty_options.php:5
+msgid "The Page Builder"
+msgstr "Der Page Builder"
+
+#: base/tmp/messages/html.description_empty_options.php:8
+msgid ""
+"Need help and don't know where to look? Read the documentation or open a "
+"thread in the support forums."
+msgstr ""
+"Brauchen Sie Hilfe und wissen nicht wo Sie diese finden? Lesen Sie die "
+"Dokumentation oder eröffnen Sie ein ein neues Thema im Support-Forum.\t"
+
+#: base/tmp/messages/html.description_empty_options.php:9
+msgid "Documentation"
+msgstr "Dokumentation"
+
+#: base/tmp/messages/html.description_empty_options.php:10
+msgid "Support"
+msgstr "Support (Englisch)"
+
+#: base/tmp/messages/html.notice_files.php:1
+#, php-format
+msgid ""
+"Some of the files generated by empty are missing. Therefore empty might not "
+"work as expected.<br />Change to the settings page <i><a href=\"%s\">Empty</"
+"a></i> and save the settings once.<br /><br />This message will disappear "
+"automatically."
+msgstr ""
+"Einige der von Empty generierten Dateien fehlen. Es kann sein, dass empty "
+"deshalb nicht wie erwartet funktioniert.<br />Wechseln Sie zur "
+"Einstellungsseite <i><a href=\"%s\">Empty</a></i> und speichern Sie die "
+"Einstellungen einmal.<br /><br />Diese Nachricht wird automatisch "
+"ausgeblendet."
+
+#: base/tmp/messages/html.tooltip_line-height.php:2
+msgid "This value is a multiple of the breakpoint's line-height."
+msgstr "Dieser Wert ist ein Vielfaches der breakpoint line-height."
+
+#: languages/translation.javascript.php:8
+msgid "Are you sure you want to remove the selected elements?"
+msgstr "Wollen Sie die ausgewählten Elemente entfernen?"
+
+#: languages/translation.javascript.php:10
+msgid "Are you sure you want to reset all values for this breakpoint?"
+msgstr "Wollen Sie alle Werte für den aktuellen Breakpoint zurücksetzen?"
+
+#: languages/translation.javascript.php:11
+msgid ""
+"Are you sure you want to reset the selected elements for this breakpoint?"
+msgstr ""
+"Wollen Sie die ausgewählten Elemente für den aktuellen Breakpoint "
+"zurücksetzen?"
+
+#: languages/translation.javascript.php:12
+msgid "Are you sure you want to reset all elements for this breakpoint?"
+msgstr "Wollen Sie alle Elemente für den aktuellen Breakpoint zurücksetzen?"
+
+#: languages/translation.javascript.php:15
+msgid "Selection"
+msgstr "Auswahl"
+
+#: languages/translation.javascript.php:18 pro/_empty_pro.php:509
+msgid "Element"
+msgstr "Element"
+
+#: pro/_empty_pro.php:86
+msgid "License"
+msgstr "Lizenz"
+
+#: pro/_empty_pro.php:103 pro/base/php/class.empty_pro_settings.php:234
+msgid "Add Breakpoint"
+msgstr "Breakpoint hinzufügen"
+
+#: pro/_empty_pro.php:133 pro/_empty_pro.php:169
+msgid "Additional Tags"
+msgstr "Zusätzliche Tags"
+
+#: pro/_empty_pro.php:139 pro/_empty_pro.php:175
+#: pro/base/php/class.empty_pro_settings.php:362
+#: pro/base/php/class.empty_pro_settings.php:521
+msgid "Add Tag"
+msgstr "Tag hinzufügen"
+
+#: pro/_empty_pro.php:241
+msgid "Updates"
+msgstr "Updates"
+
+#: pro/_empty_pro.php:420
+msgid "Paragraph"
+msgstr "Paragraph"
+
+#: pro/_empty_pro.php:471
+msgid "Options"
+msgstr "Optionen"
+
+#: pro/_empty_pro.php:472
+msgid "Parts"
+msgstr "Teile"
+
+#: pro/_empty_pro.php:473
+msgid "Markup"
+msgstr "Markup"
+
+#: pro/_empty_pro.php:509
+msgid "Elements"
+msgstr "Elemente"
+
+#: pro/_empty_pro.php:514
+msgid "All Elements"
+msgstr "Alle Elemente"
+
+#: pro/_empty_pro.php:515
+msgid "Add Element"
+msgstr "Element hinzufügen"
+
+#: pro/_empty_pro.php:516
+msgid "Add New Element"
+msgstr "Neues Element hinzufügen"
+
+#: pro/_empty_pro.php:517
+msgid "Edit Elements"
+msgstr "Elemente bearbeiten"
+
+#: pro/_empty_pro.php:518
+msgid "New Element"
+msgstr "Neues Element"
+
+#: pro/_empty_pro.php:519
+msgid "Show Elements"
+msgstr "Elemente anzeigen"
+
+#: pro/_empty_pro.php:520
+msgid "Find Elements"
+msgstr "Elemente suchen"
+
+#: pro/_empty_pro.php:521
+msgid "No Elements found"
+msgstr "Keine Element gefunden"
+
+#: pro/_empty_pro.php:522
+msgid "No Elements found in trash"
+msgstr "Keine Elemente im Papierkorb gefunden"
+
+#: pro/base/php/class.empty_pro_settings.php:89
+msgid "Deactivate License"
+msgstr "Lizenz deaktivieren"
+
+#: pro/base/php/class.empty_pro_settings.php:130
+msgid "Edit"
+msgstr "Bearbeiten"
+
+#: pro/base/php/class.empty_pro_settings.php:139
+#: pro/base/php/class.empty_pro_settings.php:583
+msgid "Remove"
+msgstr "Entfernen"
+
+#: pro/base/php/class.empty_pro_settings.php:168
+#: pro/base/php/class.empty_pro_settings.php:174
+msgid "Please enter a valid license to enable updates for empty pro."
+msgstr ""
+"Bitte geben Sie eine gültige Lizenz ein um Updates für empty pro zu "
+"aktivieren."
+
+#: pro/base/php/class.empty_pro_settings.php:184
+msgid ""
+"Your license was successfully activated with this WordPress installation."
+"<br />From now on you will recieve every upcoming empty update."
+msgstr ""
+"Ihre Lizenz wurde erfolgreich für diese WordPress Installation aktiviert."
+"<br />In Zukunft erhalten Sie alle kommenden empty Updates."
+
+#: pro/base/php/class.empty_pro_settings.php:263
+#: pro/base/php/class.empty_pro_settings.php:391
+msgid "Seclector"
+msgstr "Seclector"
+
+#: pro/base/php/class.empty_pro_settings.php:275
+#: pro/base/php/class.empty_pro_settings.php:444
+msgid "margin-top"
+msgstr "margin-top"
+
+#: pro/base/php/class.empty_pro_settings.php:291
+msgid "padding-top"
+msgstr "padding-top"
+
+#: pro/base/php/class.empty_pro_settings.php:356
+#: pro/base/php/class.empty_pro_settings.php:515
+msgid "Selector"
+msgstr "Selector"
+
+#: pro/base/php/class.empty_pro_settings.php:496
+msgid "WYSIWYG"
+msgstr "WYSIWYG"
+
+#: pro/base/php/class.empty_pro_settings.php:539
+msgid "ID"
+msgstr "ID"
+
+#: pro/base/php/class.empty_pro_settings.php:561
+msgid "Replace"
+msgstr "Ersetzung"
+
+#: pro/base/php/class.empty_pro_settings.php:570
+msgid "Type"
+msgstr "Typ"
+
+#: pro/base/php/class.empty_pro_settings.php:602
+msgid "Add Part"
+msgstr "Teil Hinzufügen"
+
+#. Plugin Name of the plugin/theme
+msgid "empty framework pro"
+msgstr "empty framework pro"
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.empty-framework.com"
+msgstr "http://www.empty-framework.com"
+
+#. Description of the plugin/theme
+msgid ""
+"empty is a framework for the rapid grid-based development of responsive "
+"WordPress Themes."
+msgstr ""
+"empty ist ein Framework für die schnelle rasterbasierte Entwicklung von "
+"responsive Webseiten auf Wordpress-Basis."
+
+#. Author of the plugin/theme
+msgid "Valentin Alisch"
+msgstr "Valentin Alisch"
+
+#. Author URI of the plugin/theme
+msgid "http://www.valentinalisch.de"
+msgstr "http://www.valentinalisch.de"
+
+#~ msgid "created successfully."
+#~ msgstr "erfolgreich erstellt."
+
+#~ msgid ""
+#~ "To get started with the configuration of empty, read this document: <a "
+#~ "href=\"%s\" target=\"_blank\">1. Workflow</a>,<br/>\n"
+#~ "or have a look at the <i>readme.txt</i>."
+#~ msgstr ""
+#~ "Um mit der Konfiguration von empty zu beginnen, lesen Sie dieses "
+#~ "Dokument: <a href=\"%s\" target=\"_blank\">1. Workflow</a>, <br/> oder "
+#~ "werfen Sie einen Blick in die <i>readme.txt</i>."
+
+#~ msgid "http://www.empty-framework.com/tutorial/1-workflow-2/"
+#~ msgstr "http://www.empty-framework.de/tutorial/1-workflow/"
+
+#~ msgid "http://www.empty-framework.com/docs/"
+#~ msgstr "http://www.empty-framework.de/doku/"
+
+#~ msgid "http://www.empty-framework.com/forums/"
+#~ msgstr "http://www.empty-framework.com/forums/"

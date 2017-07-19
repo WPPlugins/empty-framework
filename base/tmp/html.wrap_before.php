@@ -1,0 +1,1 @@
+<div class="empty-wrap" <?php echo $data; ?>>

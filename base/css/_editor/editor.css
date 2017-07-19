@@ -1,0 +1,241 @@
+/**
+ * @author Valentin Alisch <hallo@valentinalisch.de>
+ * @version 2.5.8
+ */
+
+
+
+/**
+ * @since 1.0	Reset
+ */
+#empty_editor * {
+	vertical-align: top;
+	border: 0 none;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	
+	font-size: 100%;
+	line-height: inherit;
+	
+	-webkit-text-size-adjust: none;
+	-moz-text-size-adjust: none;
+	-ms-text-size-adjust: none;
+	-o-text-size-adjust: none;
+	text-size-adjust: none;
+}
+
+
+
+/**
+ * @since 1.0	Editor
+ */
+#empty_editor {
+	margin: 1em auto;
+}
+ 
+/*#empty_editor_inner {
+	overflow: hidden;
+}*/
+
+[data-empty_editor_grid="hide"] #empty_editor {
+	background: white !important;
+}
+[data-empty_editor_grid="hide"] #empty_editor .row::before,
+[data-empty_editor_grid="hide"] #empty_editor .row .row-inner,
+[data-empty_editor_grid="hide"] #empty_editor [class*="col-"]::after {
+	background: transparent !important;
+}
+
+
+
+/**
+ * @since 1.0	Helpers
+ */
+#empty_helpers {
+	position: absolute;
+	top: -10000px;
+} 
+
+[id^="empty-helper_"] {
+	background: red;
+	min-height: 1em;
+}
+
+
+
+/**
+ * @since 1.1	Image
+ */
+#empty_editor img {
+	width: 100%;
+	height: auto;
+	display: block;
+}
+#empty_editor iframe {
+	width: 100%;
+	display: block;
+	pointer-events: none;
+}
+
+ 
+ 
+/**
+ * @since 1.0	Grid
+ */
+#empty_editor .wrap {
+	overflow: hidden;
+}
+
+#empty_editor .row {
+	position: relative;
+	cursor: ns-resize;
+}
+#empty_editor .row .row-inner {
+	margin: 0 auto;
+}
+#empty_editor .row .row-inner::after {
+	content: '';
+	display: block;
+	height: 0px;
+	clear: both;
+	float: none;
+	overflow: hidden;
+	visibility: hidden;
+}
+#empty_editor .row .row-inner:empty,
+.ui-sortable-active {
+	min-height: 50px;
+}
+
+#empty_editor .row.collapse {
+	margin-left: 0;
+	margin-right: 0;
+}
+#empty_editor .row.collapse [class*="col-"] {
+	padding-left: 0;
+	padding-right: 0;
+}
+#empty_editor .row.full .row-inner {
+	max-width: none;
+}
+
+#empty_editor [class*="col-"] {
+	position: relative;
+	display: inline-block;
+	float: left;
+	box-sizing: border-box;
+	vertical-align: top;
+}
+#empty_editor [class*="col-"].single {
+	margin-bottom: 0px;
+}
+
+
+
+/**
+ * @since 1.0	Placeholders
+ */
+#empty_editor [data-empty-element_part]:empty {
+	min-height: 50px;
+	position: relative;
+	background: rgb( 242,242,242 );
+}
+#empty_editor [data-empty-element_part]:empty::before {
+	position: absolute;
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	left: 50%;
+	top: 50%;
+	transform: translate( -50%, -50% );
+	text-align: center;
+	font-size: 11px;
+	line-height: 20px;
+	font-family: "FontAwesome";
+	color: rgb( 181, 181, 181 );
+}
+	#empty_editor [data-empty-element_part_type="TEXT"]:empty::before {
+		content: '\f246';
+	}
+	#empty_editor [data-empty-element_part_type="WYSIWYG"]:empty::before {
+		content: '\f1dd';
+	}
+	#empty_editor [data-empty-element_part_type="MEDIA"]:empty::before {
+		content: '\f15b';
+	}
+
+#empty_editor .ui-sortable-helper.disabled {
+	opacity: 0.5;
+}
+
+/**
+ * @since 1.2	New sortable function & placeholder
+ */
+/*#empty_editor .ui-sortable-active .ui-sortable-handle[class*="col-"][class*="-offset-"] {
+	margin-left: 0 !important;
+}*/
+
+#empty_editor .empty-sortable-placeholder {
+	float: left;
+	display: inline-block;
+	visibility: visible !important;
+	overflow: hidden;
+	width: 1px;
+}
+	#empty_editor .empty-sortable-placeholder .ui-sortable-placeholder {
+		z-index: 101;
+		visibility: visible !important;
+		position: absolute !important;
+	}
+	#empty_editor .empty-sortable-placeholder.disabled .ui-sortable-placeholder::before,
+	#empty_editor .empty-sortable-placeholder.disabled [class*="col-"]::after {
+		background: rgba( 255, 144, 144, 0.5 ) !important;
+	}
+
+
+
+/**
+ * @since 1.0	Handles
+ */
+.ui-resizable-e,
+.ui-resizable-w {
+	z-index: 999 !important;
+	position: absolute;
+	width: 6px;
+	height: 30px;
+	top: 50%;
+	transform: translateY( -50% );
+	border-radius: 3px;
+	display: none;
+	cursor: ew-resize;
+}
+
+
+
+/**
+ * @since 1.1	WYSIWYG
+ */
+#wp-empty-wysiwyg-wrap {
+	position: absolute;
+	top: -10000px;
+	z-index: 55555;
+	box-shadow: 0px 0px 4px lightgray;
+}
+ 
+#wp-empty-wysiwyg-editor-tools {
+	display: none;
+}
+
+
+
+/**
+ * @since 1.2	Breadcrumbs
+ */
+.empty-bar .empty-breadcrumbs {
+	padding-top: 0.5em;
+}	
+	.empty-breadcrumbs span + span {
+		margin-left: 0.6em;
+	}

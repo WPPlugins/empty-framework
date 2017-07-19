@@ -1,0 +1,1 @@
+<div data-empty-element_part="<?php echo $args[0]; ?>" data-empty-element_part_type="<?php echo $args[1]; ?>"><?php do_action( 'empty-part_' . strtolower( $args[1] ) . '_before' ); ?>

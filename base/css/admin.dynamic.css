@@ -1,0 +1,28 @@
+/**
+ * @author Valentin Alisch <hallo@valentinalisch.de>
+ * @version 2.5.8
+ */
+ 
+ 
+ 
+/* Breakpoint: sm */
+[data-empty_breakpoints_current="sm"] [data-breakpoint="sm"] {
+	display: inline-block;
+}
+
+
+
+/* Breakpoint: md */
+[data-empty_breakpoints_current="md"] [data-breakpoint="md"] {
+	display: inline-block;
+}
+
+
+
+/* Breakpoint: lg */
+[data-empty_breakpoints_current="lg"] [data-breakpoint="lg"] {
+	display: inline-block;
+}
+
+
+

@@ -1,0 +1,130 @@
+/**
+ * @author Valentin Alisch <hallo@valentinalisch.de>
+ * @version 2.5.8
+ */
+ 
+ 
+
+/* reset */
+* {
+	vertical-align: top;
+	border: 0 none;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	
+	font-size: 100%;
+	
+	-webkit-text-size-adjust: none;
+	-moz-text-size-adjust: none;
+	-ms-text-size-adjust: none;
+	-o-text-size-adjust: none;
+	text-size-adjust: none;
+}
+body, 
+html {
+	position: relative;
+	min-height: 100%;
+	width: 		100%; 
+}
+body {
+	height: 100%;
+}
+
+
+
+a,
+a:link,
+a:visited,
+a:hover,
+a:active {
+	color: inherit;
+	-webkit-touch-callout: 	none;
+	-webkit-user-select: 	none;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	
+	-khtml-user-select: 	none;
+	-moz-user-select: 		none;
+	-ms-user-select: 		none;
+	-o-user-select: 		none;
+	user-select: 			none;
+}
+
+.cleaner {
+	clear: both;
+	float: none;
+}
+.hidden {
+	opacity: 0;
+	height: 0px;
+	max-height: 0px;
+	padding: 0 !important;
+	margin: 0 !important;
+	user-select: none;
+	pointer-events: none;
+	overflow: hidden;
+}
+
+
+
+/* typography */
+p:empty {
+	display: none !important;
+}
+
+
+
+/* image */
+img {
+	width: 100%;
+	height: auto;
+	display: block;
+}
+iframe {
+	width: 100%;
+	display: block;
+}
+
+
+
+/* grid */
+.wrap {
+	overflow: hidden;
+}
+
+.row .row-inner {
+	margin: 0 auto;
+}
+.row .row-inner::after {
+	content: '';
+	display: block;
+	height: 0px;
+	clear: both;
+	float: none;
+	overflow: hidden;
+	visibility: hidden;
+}
+
+.row.collapse {
+	margin-left: 0;
+	margin-right: 0;
+}
+.row.collapse [class*="col-"] {
+	padding-left: 0;
+	padding-right: 0;
+}
+.row.full .row-inner {
+	max-width: none;
+}
+
+[class*="col-"] {
+	position: relative;
+	display: inline-block;
+	float: left;
+	box-sizing: border-box;
+	vertical-align: top;
+}
+[class*="col-"].single {
+	margin-bottom: 0px;
+}

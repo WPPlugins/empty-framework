@@ -1,0 +1,16 @@
+/**
+ * @author Valentin Alisch <hallo@valentinalisch.de>
+ * @version 2.5.8
+ */
+ 
+ 
+ 
+	/* Breakpoint: sm */	
+	/* Magic */
+	[data-empty_breakpoints*="sm"]  .wrap {padding-top: 18px;padding-bottom: 18px;padding-left: 5px;padding-right: 5px;}[data-empty_breakpoints*="sm"]  .row + .row {margin-top: 18px;}[data-empty_breakpoints*="sm"]   {font-family: sans-serif;line-height: 18px;font-size: 14px;font-weight: 500;}	
+	/* Breakpoint: md */	
+	/* Magic */
+	[data-empty_breakpoints*="sm md"]  .wrap {padding-top: 18px;padding-bottom: 18px;padding-left: 5px;padding-right: 5px;}[data-empty_breakpoints*="sm md"]  .row + .row {margin-top: 18px;}[data-empty_breakpoints*="sm md"]   {font-family: sans-serif;line-height: 18px;font-size: 16px;font-weight: 500;}	
+	/* Breakpoint: lg */	
+	/* Magic */
+	[data-empty_breakpoints*="sm md lg"]  .wrap {padding-top: 18px;padding-bottom: 18px;padding-left: 5px;padding-right: 5px;}[data-empty_breakpoints*="sm md lg"]  .row + .row {margin-top: 18px;}[data-empty_breakpoints*="sm md lg"]   {font-family: sans-serif;line-height: 18px;font-size: 16px;font-weight: 500;}	
